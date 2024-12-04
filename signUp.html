@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body >
+    
+    <section class="change-image">
+        <div class="container d-flex justify-content-center mt-2">
+      
+            <div class="login  bg-dark bg-opacity-25 mt-5 d-flex align-items-center flex-column rounded-5">
+    
+                <h1 class="mt-5">Smart Login System</h1>
+    
+                    <input type="text" class="form-control mt-3" id="inputName" placeholder="Enter your name">
+                    <div class="alert alert-dark p-1 mt-1 d-none"> Enter a valid Name atleast 3 char</div>
+                    <input type="email" class="form-control my-3" id="inputEmail" placeholder="Enter your email">
+                    <div class="alert alert-dark p-1 mt-1 d-none"> Enter valid Email  exp. anyword@gamil.com</div>
+                    <input type="password" class="form-control mb-4 position-relative" id="inputPassword" placeholder="Enter your password">
+                    <div class="alert alert-dark p-1 mt-1 d-none"> password must be atleast 8 Numbers and end with a special symbol</div>
+                    <div class="errorMsg alert alert-danger p-1 mt-1 w-25 text-center d-none">All inputs is required</div>
+                    <p class="successMsg text-success d-none"><i class="fa-regular fa-circle-check pe-2"></i>Success SignUp !</p>
+                    <p class="warningMsg text-warning d-none"><i class="fa-solid fa-circle-exclamation pe-2"></i>This email has already been registered</p>
+                <button class="login-btn btn btn-outline-info mt-1"> Sign Up</button>
+                
+                <p class="text-white mt-3 pb-lg-5">You have an account?  <a href="index.html" class="fw-medium text-white">Signin</a></p>
+    
+            </div>
+    
+        </div>
+        
+    </section>
+   
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

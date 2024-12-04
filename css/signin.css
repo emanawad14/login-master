@@ -1,0 +1,84 @@
+
+.change-image
+{
+  
+    
+  background-size: cover;
+  background-position: center ;
+  height: 100vh;
+  animation: change 15s infinite;
+  -webkit-animation: change 15s infinite;
+  transition: 1s all;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -ms-transition: 1s all;
+  -o-transition: 1s all;
+}
+@keyframes change
+{
+    0%,
+    100%{
+        background-image:  url(../imag/landscape-with-grass.jpg);
+    }
+    33%{
+        background-image: url(../imag/colorful-sunset-sea.jpg);
+    }
+    66%{
+        background-image: url(../imag/crumpled-black-paper-texture.jpg);
+    }
+    99%{
+        background-image:  url(../imag/night-sky.jpg);
+    }
+    
+    
+}
+
+
+.login{
+    width: 830px;
+}
+
+.login h1{
+    color: #17a2b8;
+    font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.login a{
+    text-decoration: none;
+ }
+ .home a{
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+ }
+
+ 
+.login a:hover{
+   text-decoration:underline;
+   
+}
+
+.login input{
+    width: 90%;
+    background-color: transparent;
+    color:white !important;
+}
+
+.login input::placeholder{
+    color: white;
+    opacity: .7;
+}
+.login input:focus{
+    background-color: transparent;
+    
+}
+
+.login-btn{
+    width: 90%;
+}
+
+.containerHome{
+    width: 100%;
+    height: 90vh;
+}
